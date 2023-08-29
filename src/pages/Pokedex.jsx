@@ -1,7 +1,7 @@
 import { useState } from "react";
 import NavbarPokeball from "../components/layout/NavbarPokeball";
 import PokemonList from "../components/pokedex/PokemonList";
-import Pagination from "../components/pokedex/pagination";
+import Pagination from "../components/pokedex/Pagination";
 import UsePokedex from "../hooks/UsePokedex";
 import { paginateData } from "../utils/pagination";
 
