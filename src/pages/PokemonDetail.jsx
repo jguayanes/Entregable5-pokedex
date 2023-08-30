@@ -28,7 +28,7 @@ const PokemonDetail = () => {
       <div>
         <NavbarPokeball />
       </div>
-      <article className="grid justify-center">
+      <article className="grid justify-center px-3">
         <article className="w-[min(100%,_400px)] sm:w-[600px]">
           <header
             className={`grid justify-center items-center ${
