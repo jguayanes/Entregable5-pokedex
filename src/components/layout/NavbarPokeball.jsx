@@ -16,10 +16,10 @@ const NavbarPokeball = () => {
       <div className="h-10 bg-black relative">
         <button
           onClick={handleLogOut}
-          className="h-16 bg-white aspect-square rounded-full absolute right-1 -translate-x-1/2 -top-3 border-[8px] border-black after:block after:content-[''] after:h-8 after:aspect-square after:bg-gray-800 after:rounded-full after:absolute after:left-1/2 after:-translate-x-1/2 after:top-1/2 after:-translate-y-1/2 after:border-4 after:border-black transitions-colors hover:bg-red-500 cursor-pointer"
+          className="h-16 bg-white aspect-square rounded-full absolute right-1 -translate-x-1/2 -top-3 border-[8px] border-slate-900 animate-pulse after:block after:content-[''] after:h-8 after:aspect-square after:bg-gray-800 after:rounded-full after:absolute after:left-1/2 after:-translate-x-1/2 after:top-1/2 after:-translate-y-1/2 after:border-4 after:border-black transitions-colors hover:bg-orange-500 cursor-pointer"
         ></button>
-        <div className="absolute right-6 bottom-8 ">
-          <img src="/images/logf1.png" className="w-[86px]"></img>
+        <div className="absolute right-[97px] -bottom-5 ">
+          <img src="/images/log1.png" className="w-[72px]"></img>
         </div>
       </div>
     </section>
